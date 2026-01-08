@@ -1,3 +1,4 @@
+# %%
 def levenshtein_distance(s1: str, s2: str) -> int:
     m, n = len(s1), len(s2)
 
@@ -21,9 +22,13 @@ def levenshtein_distance(s1: str, s2: str) -> int:
     return dp[m][n]
 
 
+# %%
 def main() -> None:
     print(levenshtein_distance("kitten", "sitting"))
 
 
+# %%
 if __name__ == "__main__":
     main()
+
+# %%

@@ -1,6 +1,6 @@
 import pytest
 
-from dataanalproj.main import levenshtein_distance
+from dataanalproj.levenshtein import levenshtein_distance
 
 
 @pytest.mark.parametrize(

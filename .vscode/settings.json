@@ -41,4 +41,14 @@
         "-s",
         "."
     ],
+    // PyLance settings, set by vsCode PyLance extension
+    "python.analysis.useLibraryCodeForTypes": true,
+    "python.analysis.aiCodeActions": {
+        "implementAbstractClasses": true,
+        "generateSymbol": true,
+        "convertFormatString": true
+    },
+    "python.analysis.enableTroubleshootMissingImports": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.generateWithTypeAnnotation": true,
 }
